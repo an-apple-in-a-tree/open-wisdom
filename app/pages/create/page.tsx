@@ -71,16 +71,10 @@ const [lessonVideos, setLessonVideos] = useState<File[]>([]);
             <Form.Label className="text-m font-medium leading-[35px] text-white">
               Images
             </Form.Label>
-            <Form.Message
-              className="text-[13px] text-navy opacity-[0.8]"
-              match="valueMissing"
-            >
-              Please upload any images or links
-            </Form.Message>
           </div>
           <Form.Control asChild>
             <input
-              className="box-border w-full bg-blackA2 shadow-blackA6 inline-flex h-[35px] appearance-none items-center justify-center rounded-[4px] px-[10px] text-[15px] leading-none text-navy shadow-[0_0_0_1px] outline-none hover:shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black] selection:color-white selection:bg-blackA6"
+              className=""
               type="file"
               multiple
               onChange={(e) =>
@@ -94,16 +88,10 @@ const [lessonVideos, setLessonVideos] = useState<File[]>([]);
             <Form.Label className="text-m font-medium leading-[35px] text-white">
               Videos
             </Form.Label>
-            <Form.Message
-              className="text-[13px] text-navy opacity-[0.8]"
-              match="valueMissing"
-            >
-              Please upload any videos or links
-            </Form.Message>
           </div>
           <Form.Control asChild>
             <input
-              className="box-border w-full bg-blackA2 shadow-blackA6 inline-flex h-[35px] appearance-none items-center justify-center rounded-[4px] px-[10px] text-[15px] leading-none text-navy shadow-[0_0_0_1px] outline-none hover:shadow-[0_0_0_1px_black] focus:shadow-[0_0_0_2px_black] selection:color-white selection:bg-blackA6"
+              className=""
               type="file"
               multiple
               onChange={(e) =>

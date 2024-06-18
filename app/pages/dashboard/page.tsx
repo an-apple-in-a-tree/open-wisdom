@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <div>
       <h1 className="max-w-xs align-center mx-auto">Dashboard</h1>
-      <div className="align-center mx-auto">
+      <div className="max-w-xs align-center mx-auto">
         <div className="bg-white shadow-xl rounded-lg py-3">
           <div className="photo-wrapper p-2">
             <img
