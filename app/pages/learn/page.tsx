@@ -19,7 +19,6 @@ const fetchLessons = async (): Promise<Lesson[]> => {
   }else{
     console.error("Success");
   }
-
   return lessons;
 };
 

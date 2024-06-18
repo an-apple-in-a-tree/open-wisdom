@@ -19,7 +19,7 @@ const [lessonVideos, setLessonVideos] = useState<File[]>([]);
 
   return (
     <div className="flex justify-center items-center h-screen">
-      <Form.Root className="w-2/3 bg-darkGold p-8" onSubmit={handleSubmit}>
+      <Form.Root className="w-2/3 bg-mediumGold p-8 rounded-xl border-4 border-darkGold" onSubmit={handleSubmit}>
         <h1 className="nunito text-xl pb-4 text-white">
           Upload your own lesson:{" "}
         </h1>
@@ -103,7 +103,7 @@ const [lessonVideos, setLessonVideos] = useState<File[]>([]);
           </Form.Control>
         </Form.Field>
         <Form.Submit asChild>
-          <button className="box-border w-full text-violet11 shadow-blackA4 hover:bg-mauve3 inline-flex h-[35px] items-center justify-center rounded-[4px] bg-white px-[15px] font-medium leading-none shadow-[0_2px_10px] focus:shadow-[0_0_0_2px] focus:shadow-black focus:outline-none mt-[10px]">
+          <button className="mt-4 w-full text-navy h-12 w-3/4 alignc-center mx-auto rounded-md bg-white font-medium">
             Post Lesson
           </button>
         </Form.Submit>

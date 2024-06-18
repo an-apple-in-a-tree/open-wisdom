@@ -38,7 +38,7 @@ export default function Page() {
       </form>
       {response.length > 0 && (
         <div className="mt-8">
-          <h2 className="text-xl font-semibold mb-4">Owletta's response:</h2>
+          <h2 className="text-xl font-semibold mb-4">Owletta&apos;s response:</h2>
           <div className="w-full bg-white rounded-lg p-4 shadow-lg">
             {response.map((device, index) => (
               <p key={index} className="text-gray-800">
